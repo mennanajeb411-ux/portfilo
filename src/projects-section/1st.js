@@ -1,4 +1,5 @@
 import React from "react";
+const imgPath = process.env.PUBLIC_URL + "/imgs/";
 
 function First() {
     return (
@@ -16,7 +17,10 @@ function First() {
         <p className="p1">Development & Design</p>
     </div>
             </div>
-            <div className="img2"> <img src="/imgs/Moody Coffee – Brewed with Warmth & Aroma.jpg" alt="" />
+            <div className="img2"> <img 
+  src={`${process.env.PUBLIC_URL}/imgs/Moody Coffee – Brewed with Warmth & Aroma.jpg`} 
+  alt="" 
+/>
              <div class="text1">
         <h4 className="tex">Buissnes Startup</h4>
         <p className="p1">Development & Design
