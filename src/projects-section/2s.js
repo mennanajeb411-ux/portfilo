@@ -8,7 +8,7 @@ function Second() {
             <div className="contact-container">
 
                 <div className="left">
-                   <img src="/imgs/pngwing.com.png" alt="my image" />
+          <img src={`${process.env.PUBLIC_URL}/imgs/pngwing.com.png`} alt="my image" id="ani" />
                 </div>
 
                 <div className="right">

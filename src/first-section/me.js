@@ -66,7 +66,7 @@ function Me(){
 
 
          <div className="img">
-           <img src="/imgs/pngwing.com.png" alt="my image"  id="ani"/>
+          <img src={`${process.env.PUBLIC_URL}/imgs/pngwing.com.png`} alt="my image" id="ani" />
 
          </div>
         
