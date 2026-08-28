@@ -2,9 +2,9 @@
 
 A responsive personal portfolio website built with React.js to showcase my skills, projects, and experience as a Frontend Developer.
 
-## 🌐 Live Demo
+## Live Demo
 
-[View Live Portfolio](https://mennanajeb411-ux.github.io/portfilo/)
+[View Portfolio](https://mennanajeb411-ux.github.io/portfilo/)
 
 ## 🛠️ Technologies
 
